@@ -1,2 +1,6 @@
 # idp_demo
-a demo showcasing how an Internal Developer Platform is created
+### Overview
+The repository includes configurations and manifests for setting up an IDP, showcasing integrations with tools like ArgoCD, Crossplane, and others.
+
+### Key Components
+
