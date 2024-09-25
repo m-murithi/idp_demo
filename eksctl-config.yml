@@ -1,0 +1,20 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: infra-cluster-free
+  region: us-east-1
+managedNodeGroups:
+  - name: ng-free
+    instanceType: t3.micro
+    minSize: 2
+    maxSize: 3
+    desiredCapacity: 2
+    privateNetworking: true
+    volumeSize: 8
+    iam:
+      withAddonPolicies:
+        autoScaler: true
+addons:
+  - name: vpc-cni
+  - name: coredns
+  - name: kube-proxy
