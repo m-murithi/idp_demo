@@ -8,13 +8,13 @@ This project showcases how to set up an IDP by leveraging cloud-native tools and
 
 ### Key Components
 
-1. [  ] Infrastructure: EKS cluster using 'eksctl'
-2. [  ] Application DEployment: Managed by ArgoCD
-3. [  ] Cloud Resources: Managed by Crossplane
-4. [  ] Policies: Enforced using OPA(Open Policy Agency)
-5. [  ] Database Management: Using SchemaHero
-6. [  ] Secret Management: Using External Secrets Operator
-7. [  ] CI/CD: Automated with GitHub Actions
+- [x] ~~Infrastructure: EKS cluster using 'eksctl'~~
+- [x] Application DEployment: Managed by ArgoCD
+- [ ] Cloud Resources: Managed by Crossplane
+- [ ] Policies: Enforced using OPA(Open Policy Agency)
+- [ ] Database Management: Using SchemaHero
+- [ ] Secret Management: Using External Secrets Operator
+- [ ] CI/CD: Automated with GitHub Actions
 
 ### Project Structure
 
