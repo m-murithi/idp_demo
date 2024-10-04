@@ -1,5 +1,9 @@
 #!/bin/bash
 
+####################
+# Minikube Startup #
+####################
+
 # Exit immediately if a command exits with a non-zero status
 set -e
 
@@ -43,3 +47,17 @@ minikube  status --profile=$CLUSTER_NAME
 echo "You can now use 'kubectl' to interact with your cluster."
 echo "To use this cluster, run: 'minikube profile $CLUSTER_NAME'"
 echo "To access the Kubernetes dashboard, run: 'minikube dashboard --profile=$CLUSTER_NAME'"
+
+###########
+# Argo CD #
+###########
+
+kubectl create namespace schemahero
+
+helm repo add schemahero https://schemahero.io
+helm repo update
+
+helm upgrade --install schemahero schemahero/schemahero \
+    --namespace schemahero \
+    --wait
+
