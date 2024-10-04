@@ -6,10 +6,16 @@ The repository includes configurations and manifests for setting up an IDP, show
 
 This project showcases how to set up an IDP by leveraging cloud-native tools and practices. The demo includes infrastructure setup, application deployment, resource management, policy enforcement, database schema management, and secret management.
 
+For this IDP I wanted to focus on:
+
+1. Standardized deployment process
+2. Provide easy-to-use service templates
+3. Centralized monitoring and logging
+
 ### Key Components
 
-- [x] ~~Infrastructure: EKS cluster using 'eksctl'~~
-- [x] Application DEployment: Managed by ArgoCD
+- [x] Infrastructure: EKS cluster using 'eksctl'
+- [x] Application Dsployment: Managed by ArgoCD
 - [ ] Cloud Resources: Managed by Crossplane
 - [ ] Policies: Enforced using OPA(Open Policy Agency)
 - [ ] Database Management: Using SchemaHero
