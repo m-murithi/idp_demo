@@ -8,7 +8,7 @@ This project showcases how to set up an IDP by leveraging cloud-native tools and
 
 ### Key Components
 
-- [x] ~~Infrastructure: EKS cluster using 'eksctl'~~
+- [x] Infrastructure: EKS cluster using 'eksctl'
 - [x] Application DEployment: Managed by ArgoCD
 - [ ] Cloud Resources: Managed by Crossplane
 - [ ] Policies: Enforced using OPA(Open Policy Agency)
