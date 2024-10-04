@@ -14,7 +14,7 @@ For this IDP I wanted to focus on:
 
 ### Key Components
 
-- [x] ~~Infrastructure: EKS cluster using 'eksctl'~~
+- [x] Infrastructure: EKS cluster using 'eksctl'
 - [x] Application DEployment: Managed by ArgoCD
 - [ ] Cloud Resources: Managed by Crossplane
 - [ ] Policies: Enforced using OPA(Open Policy Agency)
